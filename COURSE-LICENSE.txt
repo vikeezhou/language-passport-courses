@@ -1,0 +1,4 @@
+Language Passport V1 original course text and Chinese translations.
+Dedicated to the public domain under CC0 1.0 Universal.
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+No audio is included. The mock audio timings are test fixtures.

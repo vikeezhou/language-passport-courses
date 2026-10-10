@@ -1,0 +1,43 @@
+Language Passport V1 Phase 2 audio provenance
+
+Original English/Spanish lesson text and Chinese translations: Language Passport
+V1 project, CC0-1.0 (see assets/courses/language_passport/LICENSE.txt).
+No commercial course text or recordings were copied.
+
+Computer-only synthesis engine: rhasspy/Piper release 2023.11.14-2,
+https://github.com/rhasspy/piper/releases/tag/2023.11.14-2
+Piper source license: MIT. The bundled phonemizer uses eSpeak NG (GPL-3.0).
+Engine/model packages remain outside the firmware and Git under build/lp-tts.
+Archive SHA-256: f3c58906402b24f3a96d92145f58acba6d86c9b5db896d207f78dc80811efcea
+
+English voice: en_GB-alba-medium, rhasspy/piper-voices contributors;
+ALBA speech dataset, University of Edinburgh, dataset license CC BY 4.0.
+https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_GB/alba/medium/MODEL_CARD
+https://datashare.ed.ac.uk/handle/10283/3270
+https://creativecommons.org/licenses/by/4.0/
+
+Spanish voice: es_ES-davefx-medium, rhasspy/piper-voices contributors;
+DaveFX/OHF-Voice voice-datasets, dataset license CC0 according to model card.
+https://huggingface.co/rhasspy/piper-voices/blob/main/es/es_ES/davefx/medium/MODEL_CARD
+https://github.com/OHF-Voice/voice-datasets
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Both upstream cards disclose fine-tuning from the English Lessac medium voice.
+These are upstream dataset/license declarations, not a newly granted model license.
+Keep this attribution and the full manifest provenance with redistributed audio;
+review the inherited model rights before any commercial/public firmware release.
+No publication is performed by this development step.
+
+Models were downloaded at the exact repository revision in manifest.json and
+verified against upstream LFS SHA-256 values. MODEL_CARD and config SHA values,
+download URLs, and source-WAV/encoded/text hashes are recorded in the manifest.
+
+Transformations: offline synthesis at length_scale 1.05; 22,050 Hz mono to
+16,000 Hz signed little-endian PCM using Python 3.12 audioop.ratecv(1,1);
+long outside silence trimmed with 120 ms margins; block IMA-ADPCM compression.
+WAVs are retained for comparison; all normal firmware clips use IMA.
+Synthesis can vary between runs; the accepted bytes are SHA-bound.
+Format: 32-byte LPA2 header, mono/16-bit/16 kHz, header and payload CRC32.
+IMA: 256-byte blocks, 505 samples/block, predictor and step index per block.
+Reference PCM for the first hotel sentence is embedded in the same pack.
+All playback streams through the original BSP PCM interface.
