@@ -1,0 +1,375 @@
+{
+  "schema": 2,
+  "sample_rate": 16000,
+  "block_bytes": 256,
+  "block_samples": 505,
+  "sources": {
+    "piper_release": "2023.11.14-2",
+    "piper_release_url": "https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_windows_amd64.zip",
+    "piper_zip_sha256": "f3c58906402b24f3a96d92145f58acba6d86c9b5db896d207f78dc80811efcea",
+    "voices": {
+      "en": {
+        "revision": "c10ece1aade47bb51c153c893d14e5bf8e5b7117",
+        "voice": "en_GB-alba-medium",
+        "dataset_license": "CC-BY-4.0",
+        "files": {
+          "en_GB-alba-medium.onnx": {
+            "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/en/en_GB/alba/medium/en_GB-alba-medium.onnx",
+            "sha256": "401369c4a81d09fdd86c32c5c864440811dbdcc66466cde2d64f7133a66ad03b"
+          },
+          "en_GB-alba-medium.onnx.json": {
+            "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/en/en_GB/alba/medium/en_GB-alba-medium.onnx.json",
+            "sha256": "aa965a2f02ecced632c2694e1fc72bbff6d65f265fab567ca945918c73dd89f4"
+          },
+          "en_GB-alba-medium-MODEL_CARD.txt": {
+            "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/en/en_GB/alba/medium/MODEL_CARD",
+            "sha256": "fa166b1779404c470b0b6b4ba0238bc4a35bf89d2cd130c6788f697188b737d6"
+          }
+        }
+      },
+      "es": {
+        "revision": "c10ece1aade47bb51c153c893d14e5bf8e5b7117",
+        "voice": "es_ES-davefx-medium",
+        "dataset_license": "CC0-1.0",
+        "files": {
+          "es_ES-davefx-medium.onnx": {
+            "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/es/es_ES/davefx/medium/es_ES-davefx-medium.onnx",
+            "sha256": "6658b03b1a6c316ee4c265a9896abc1393353c2d9e1bca7d66c2c442e222a917"
+          },
+          "es_ES-davefx-medium.onnx.json": {
+            "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/es/es_ES/davefx/medium/es_ES-davefx-medium.onnx.json",
+            "sha256": "0e0dda87c732f6f38771ff274a6380d9252f327dca77aa2963d5fbdf9ec54842"
+          },
+          "es_ES-davefx-medium-MODEL_CARD.txt": {
+            "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/es/es_ES/davefx/medium/MODEL_CARD",
+            "sha256": "420703b5d8ea239b729f13d83f31eea9bae5fcb89447de23ebc94aa8a4768f95"
+          }
+        }
+      }
+    }
+  },
+  "courses": [
+    {
+      "id": "en-travel-checkin",
+      "version": 1,
+      "voice": "en_GB-alba-medium",
+      "lines": [
+        {
+          "file": "en-travel-checkin-00.lpa",
+          "pcm_file": "en-travel-checkin-00.wav",
+          "pcm_sha256": "3e2e151f1fa976469e53af366659df9e8cedc5b040bc909fe84e79e11a1829c0",
+          "text_sha256": "f917dcf99e9a455d0843f77ff0c7ee0d99957dc49b4134c9c2aedd5c0108f5b7",
+          "sha256": "b206e9d672809e4d355f607a9ba884fc80d070eee173e86dbcb3cb6dec9b5f41",
+          "offset": 0,
+          "bytes": 28960,
+          "samples": 56851,
+          "duration_ms": 3554
+        },
+        {
+          "file": "en-travel-checkin-01.lpa",
+          "pcm_file": "en-travel-checkin-01.wav",
+          "pcm_sha256": "1265bc0cff23abc59905749b27012c8c544e4db0996ec44380a2062fd8364e79",
+          "text_sha256": "3e4190a4a3c5d6fe7d07b6c1ec359c16be7655770f782e93c8c30ae887cf5826",
+          "sha256": "e72e6980938e6d01686758af61899f985aff305aa53c939186d10dbaba63052c",
+          "offset": 28960,
+          "bytes": 26912,
+          "samples": 53009,
+          "duration_ms": 3314
+        },
+        {
+          "file": "en-travel-checkin-02.lpa",
+          "pcm_file": "en-travel-checkin-02.wav",
+          "pcm_sha256": "1fdbaa4d43da0dddd3a7d815ddfc49bb0d84bc00ab05e62eb30649efe29c8b74",
+          "text_sha256": "2582deedbe36da23e11e1d5b39193c7e1f87cc31f33010234317ba059f3b2460",
+          "sha256": "d9b25156b23276e66186b0ea5a02b7cf391cbf68933f14877a65bfbf643bfe7e",
+          "offset": 55872,
+          "bytes": 29472,
+          "samples": 57929,
+          "duration_ms": 3621
+        },
+        {
+          "file": "en-travel-checkin-03.lpa",
+          "pcm_file": "en-travel-checkin-03.wav",
+          "pcm_sha256": "5e90bdad5c13a85c52b5cc27fedfb7fb76171ebe3ae4d5494f30f546cd6566ba",
+          "text_sha256": "022bbae59b00820f49d41bbf3ce6c2ed9fe1c39aeeae960fe0180177478877c0",
+          "sha256": "7c0edad5f09d6781d3f42e4ed3ce1e19c20804ce7930b9c0fa997fa8eca0fa39",
+          "offset": 85344,
+          "bytes": 31264,
+          "samples": 61407,
+          "duration_ms": 3838
+        },
+        {
+          "file": "en-travel-checkin-04.lpa",
+          "pcm_file": "en-travel-checkin-04.wav",
+          "pcm_sha256": "a3e24e851b961fdf5a6b877be42d0fe3e6ffddc2f087e22ea725044c110444a5",
+          "text_sha256": "55c760cb9248577fc7c9acf3037d430c5a84b5d3869505dc29e8f5bca83dd913",
+          "sha256": "94bbc4a4d283876572c4bb5f2e5b32384b7a7768af83be4ab6828e3762510e98",
+          "offset": 116608,
+          "bytes": 21792,
+          "samples": 42694,
+          "duration_ms": 2669
+        },
+        {
+          "file": "en-travel-checkin-05.lpa",
+          "pcm_file": "en-travel-checkin-05.wav",
+          "pcm_sha256": "90c9d999e1b296a6202f06a732b582c58d5570a9bd36c68d6de0ee592f8ecc16",
+          "text_sha256": "0062b83fc910edec8cd564d34980f46c7599ff23c3629c2f93d5871a7cff1fbb",
+          "sha256": "1c94c6f93e1ea69aec04abcea98995bbafb3f9da84e07c4e13541ab19ed41290",
+          "offset": 138400,
+          "bytes": 25888,
+          "samples": 50944,
+          "duration_ms": 3184
+        },
+        {
+          "file": "en-travel-checkin-06.lpa",
+          "pcm_file": "en-travel-checkin-06.wav",
+          "pcm_sha256": "1d624976239d72c9ea7c40171ba52619adedd7274657284a5e4fe5d5a7ee4456",
+          "text_sha256": "5d564d7a22fcffb83b21f273a0e0c4c9c7c038174b98e4820458ee6df1228520",
+          "sha256": "bed553120a60cc60e200e27711e72715e0849dc4fc86e9e679871598558e565d",
+          "offset": 164288,
+          "bytes": 24608,
+          "samples": 48215,
+          "duration_ms": 3014
+        },
+        {
+          "file": "en-travel-checkin-07.lpa",
+          "pcm_file": "en-travel-checkin-07.wav",
+          "pcm_sha256": "773e700056ef21a2c9087f2ab2b4f49690326d99e5fe6cbf3980ec429b2114d4",
+          "text_sha256": "5aafd269db18e8f57f62ed04dcd8d15e12cb853a840e1ac7d326bb3a27e985ae",
+          "sha256": "2a0c48d0f06be562476ade4c9d2e60e454da643d8a02d25632c774ae715d3885",
+          "offset": 188896,
+          "bytes": 27424,
+          "samples": 53678,
+          "duration_ms": 3355
+        }
+      ]
+    },
+    {
+      "id": "en-work-deadline",
+      "version": 1,
+      "voice": "en_GB-alba-medium",
+      "lines": [
+        {
+          "file": "en-work-deadline-00.lpa",
+          "pcm_file": "en-work-deadline-00.wav",
+          "pcm_sha256": "1badeb036b99f7ac39f8cdc3501bcfc796f0cfd162a6f4b11e9dbdbddbb690a3",
+          "text_sha256": "de18a5ab3da9d272290799a62979c961d8fff0a00fcdac11f4fd74111de51466",
+          "sha256": "2607f1a4b2469c6238e7313d72bda0af61f3bcf663077ffef0df12281126b27d",
+          "offset": 216320,
+          "bytes": 18464,
+          "samples": 36208,
+          "duration_ms": 2263
+        },
+        {
+          "file": "en-work-deadline-01.lpa",
+          "pcm_file": "en-work-deadline-01.wav",
+          "pcm_sha256": "794abc2dba1d9829251043bb48cedcf7251e2fba2d50b1e87edf97ddf8351b9e",
+          "text_sha256": "654ad514a314ae6911c2ffab5c51d734910203fe9aa5e99be60cb2adec224d59",
+          "sha256": "28bbd9218080c7e017dae4bd8998aa3a4dad4182338528d64f2fc16fa6218614",
+          "offset": 234784,
+          "bytes": 33824,
+          "samples": 66622,
+          "duration_ms": 4164
+        },
+        {
+          "file": "en-work-deadline-02.lpa",
+          "pcm_file": "en-work-deadline-02.wav",
+          "pcm_sha256": "5f8b6247a9a7d7c7fa0fc436d83297f01e99c95a514be1248cd0ecf4d092e1b9",
+          "text_sha256": "741ebb06cc36c582ed7af0cc5f434297b443c8783dcde6792c596ca9a1df9ad2",
+          "sha256": "5c8f201f185438523da5e8278ff802868ff5cb7c5b2f0c045dd29eae2765c2b5",
+          "offset": 268608,
+          "bytes": 16672,
+          "samples": 32799,
+          "duration_ms": 2050
+        },
+        {
+          "file": "en-work-deadline-03.lpa",
+          "pcm_file": "en-work-deadline-03.wav",
+          "pcm_sha256": "7aaf3005bdde95b66927feee0eeea5af7dce86e7f6850ce2fd4b9eca6d9a2f5b",
+          "text_sha256": "ea0fcf887e65e80f9364f82eb404b30711c6e2ad2269ec5552540377be9f30b4",
+          "sha256": "55de7d1f5ba2debb830c323aff7a27145c6fb25b88d0c138c192c38296d717b0",
+          "offset": 285280,
+          "bytes": 24352,
+          "samples": 47823,
+          "duration_ms": 2989
+        },
+        {
+          "file": "en-work-deadline-04.lpa",
+          "pcm_file": "en-work-deadline-04.wav",
+          "pcm_sha256": "1dfa19e049a171c53d22eb8dc22a7c580e43cc07fb48a199d45c6f46bef94302",
+          "text_sha256": "650fa55e84bc7da63e089c83cf96e41eb2b96aeeaba13b25d78962a3961b4310",
+          "sha256": "60a8bc1e4878f0ae92ce746e8616e035d628aaa5c0db94f9eb8f00ee275928d0",
+          "offset": 309632,
+          "bytes": 27168,
+          "samples": 53179,
+          "duration_ms": 3324
+        },
+        {
+          "file": "en-work-deadline-05.lpa",
+          "pcm_file": "en-work-deadline-05.wav",
+          "pcm_sha256": "2d5faddff1e8b2a1ee4f46623e518574a01b7cb43b57a368ae2dee507de9a4d7",
+          "text_sha256": "773e42c812ec0a08b01db1bdda265ec7f0d82953709ab2bc2d9109ed24ab2f29",
+          "sha256": "66a86294511ca61a3a60f581246fc5fe130028ba26fcd9055d471a634a9e8e1f",
+          "offset": 336800,
+          "bytes": 34336,
+          "samples": 67580,
+          "duration_ms": 4224
+        }
+      ]
+    },
+    {
+      "id": "es-daily-cafe",
+      "version": 1,
+      "voice": "es_ES-davefx-medium",
+      "lines": [
+        {
+          "file": "es-daily-cafe-00.lpa",
+          "pcm_file": "es-daily-cafe-00.wav",
+          "pcm_sha256": "6888590c759f00c364a5f276bb5564b6c1d655bc83c626dba7e9ff952489ad10",
+          "text_sha256": "02db3df68a068224622726eedc92cca6a8df475b630cbd9d038b74676dbe02b8",
+          "sha256": "b69d542ba1dd3fe2fcd4aab9fa2ee7a35ade7f6fc4277f4b0434099bacc7992e",
+          "offset": 371136,
+          "bytes": 22560,
+          "samples": 44229,
+          "duration_ms": 2765
+        },
+        {
+          "file": "es-daily-cafe-01.lpa",
+          "pcm_file": "es-daily-cafe-01.wav",
+          "pcm_sha256": "f253b46608746106054878538f9374b3938d7a1b2724d905a7cf909f899d6292",
+          "text_sha256": "f3abfaa72971531de35e82e1c2383e165d3a88fd9f99ddd4e85cd0c1c33af758",
+          "sha256": "f667485d7c73fe3d1ccc18b3f544ac9f7d952d24df1e226894d817fd1d3461f0",
+          "offset": 393696,
+          "bytes": 11808,
+          "samples": 22850,
+          "duration_ms": 1429
+        },
+        {
+          "file": "es-daily-cafe-02.lpa",
+          "pcm_file": "es-daily-cafe-02.wav",
+          "pcm_sha256": "c7e442c2d44e60afc653c74e3518997a2fb4150349c7167546b66c9704ad25be",
+          "text_sha256": "054bdc136e6d999ec3405881e8955bb24c59c1c0a2d39bf41c748f123b3c091a",
+          "sha256": "7ddaffb7cd40a167d30f46028c8376a287baf8d5b5fa9198a2d35e5c6fa1624a",
+          "offset": 405504,
+          "bytes": 18464,
+          "samples": 36016,
+          "duration_ms": 2251
+        },
+        {
+          "file": "es-daily-cafe-03.lpa",
+          "pcm_file": "es-daily-cafe-03.wav",
+          "pcm_sha256": "7b7b768195649f7e031075f60679c39f071ebe421ee0db4082daf28e679729eb",
+          "text_sha256": "769cb32cb636702087b48ca2e8dfc8d9dced12166aac4cc3670c10e9a3a1694f",
+          "sha256": "5b3773cdcfdb55712230fe7f4176fd2899a2e040840ec38fecb8ad09aa6ee727",
+          "offset": 423968,
+          "bytes": 12320,
+          "samples": 24085,
+          "duration_ms": 1506
+        },
+        {
+          "file": "es-daily-cafe-04.lpa",
+          "pcm_file": "es-daily-cafe-04.wav",
+          "pcm_sha256": "5ceaf418656684b6218ae0ef439c2e0eae5d6cf1c27dfa99dacff0047d8fe182",
+          "text_sha256": "a35a094c865877202f47624e51b349e69545e6a82906df52a5809c3e4d908b8e",
+          "sha256": "6dd69b0a2f33d71612b8c15bdabe15c741e82b4718845fa20e697f01a4c47c1e",
+          "offset": 436288,
+          "bytes": 27168,
+          "samples": 53388,
+          "duration_ms": 3337
+        },
+        {
+          "file": "es-daily-cafe-05.lpa",
+          "pcm_file": "es-daily-cafe-05.wav",
+          "pcm_sha256": "328c0e27de078a123b0c9e9e7de8d874b3901ece79ea92a69b9250bf155bf62e",
+          "text_sha256": "878eac09f5c95827ae43adc7f7f8f9369a5860cf5d00cbe6fed1558d1109e11b",
+          "sha256": "f2e48660e1a3f17c4fac81d8c89afc3ae87c15f97375380461a79c5d47ea04e6",
+          "offset": 463456,
+          "bytes": 18976,
+          "samples": 36891,
+          "duration_ms": 2306
+        }
+      ]
+    },
+    {
+      "id": "es-travel-train",
+      "version": 1,
+      "voice": "es_ES-davefx-medium",
+      "lines": [
+        {
+          "file": "es-travel-train-00.lpa",
+          "pcm_file": "es-travel-train-00.wav",
+          "pcm_sha256": "3d664f82ad23c6d53c7604c558d93834b043422c3841d113936b3da1b2f4194d",
+          "text_sha256": "a65436a92950afc7cd570ba7f844705637c22ab1754593f281bff6d3f8b24ac3",
+          "sha256": "c9afb393e4b37aa083aa8d911816db428d91d6523095308d67b3dad5481a80f9",
+          "offset": 482432,
+          "bytes": 17952,
+          "samples": 34932,
+          "duration_ms": 2184
+        },
+        {
+          "file": "es-travel-train-01.lpa",
+          "pcm_file": "es-travel-train-01.wav",
+          "pcm_sha256": "91a2df1ee0f344cef58d386c9eac16b20f6c1b6ccc14d7c65a532a0d3e1e548b",
+          "text_sha256": "bf51d35c62362000b4a50d28c5c333590c362c86beb813a59cb1d5600a0ab277",
+          "sha256": "eb3ad75338b7d6a01909c6eb3d8a1a6a2c621eaf4b4c8478676727a9390cdb04",
+          "offset": 500384,
+          "bytes": 13600,
+          "samples": 26317,
+          "duration_ms": 1645
+        },
+        {
+          "file": "es-travel-train-02.lpa",
+          "pcm_file": "es-travel-train-02.wav",
+          "pcm_sha256": "e993602192e658e6923f78cff15ad2af264c03066ee8995e7879b91951965b9e",
+          "text_sha256": "a965d63c3ecdd33827dd0abcd7ddd1be878a3c50fe9c8f022387c4870b4d456c",
+          "sha256": "70d24fac3b358929e4e9ad123d912d5458f1e708626afec54d4b4b9444a7cf08",
+          "offset": 513984,
+          "bytes": 22560,
+          "samples": 43963,
+          "duration_ms": 2748
+        },
+        {
+          "file": "es-travel-train-03.lpa",
+          "pcm_file": "es-travel-train-03.wav",
+          "pcm_sha256": "d8ec1c45d5171e7f192dfb7455eea02935d4680f4dffc1b3c82c7b4d8145a427",
+          "text_sha256": "8adc7182baab1770589491c079c85fb8bbd4e5dde2596df703beecfc5ec45e41",
+          "sha256": "e5f1b9989c10ed69ccdab5d7459dad9671fcecf2c9bb02c261fca5b041e0deb6",
+          "offset": 536544,
+          "bytes": 17952,
+          "samples": 35123,
+          "duration_ms": 2196
+        },
+        {
+          "file": "es-travel-train-04.lpa",
+          "pcm_file": "es-travel-train-04.wav",
+          "pcm_sha256": "184be381c942aeb202d2586d83b5ab08ccf44365de9aaf9e35fbcbd5f6588e02",
+          "text_sha256": "e066ecb201cb8911fa3fd7482b2dd220b0bf242c02200fefe4567df85f3344d7",
+          "sha256": "428720ba2579d1882ad97aec24ae626833f7eab35f2702a52a544c46eebde85e",
+          "offset": 554496,
+          "bytes": 20256,
+          "samples": 39745,
+          "duration_ms": 2485
+        },
+        {
+          "file": "es-travel-train-05.lpa",
+          "pcm_file": "es-travel-train-05.wav",
+          "pcm_sha256": "19aa65885c40c236716cb239c0e4c82fc7418929e0b417f9b849856e66a507da",
+          "text_sha256": "25f34d549276f398217242203e92fb4091987f319aaa4d95cb3829ad10f02d53",
+          "sha256": "f4d778e3f0ac08e5460d1434d0ffc44ae7bd4e59cc528ac4a838508724cc47fd",
+          "offset": 574752,
+          "bytes": 33312,
+          "samples": 65297,
+          "duration_ms": 4082
+        }
+      ]
+    }
+  ],
+  "pcm_reference": {
+    "offset": 608064,
+    "bytes": 113734,
+    "course": 0,
+    "line": 0,
+    "sha256": "555a9f51c0b0ad2d75a5666f398c87a9ba2915e231ae72ba18cedb8fabbf84d0"
+  },
+  "pack_sha256": "795c323d4dafce2bf6457672e5bae5f2fdffdc9f8fc50073b299d26db9fa0086"
+}

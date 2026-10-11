@@ -1,0 +1,8 @@
+Language Passport original dialogue text: CC0-1.0.
+Offline Piper engine: MIT; bundled phonemizer: GPL-3.0, production tool only.
+New English: en_GB-cori-medium, public-domain LibriVox recordings, trained from scratch.
+New Spanish: es_ES-carlfm-x_low, public-domain carlfm recordings, trained from scratch.
+Model cards and fixed-revision model/config hashes are in manifest.json.
+No Lessac-derived model was used for these 36 new lessons.
+The four unchanged legacy lessons retain their original separate provenance and pending inherited-rights review.
+Perceptual pronunciation and quality need listening acceptance before public release.

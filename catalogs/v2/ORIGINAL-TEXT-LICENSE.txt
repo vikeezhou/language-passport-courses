@@ -1,0 +1,4 @@
+Language Passport V1 original course text and Chinese translations.
+Dedicated to the public domain under CC0 1.0 Universal.
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+This notice covers original course text only. Audio provenance, model training history and license details are recorded separately under assets/music/language_passport.
